@@ -41,12 +41,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="jumbotron text-center" id="#contact">
         <img src="<?php echo base_url(); ?>/assets/foto/200.JPG" class="rounded-circle" width="300" height="220" id='bg'>
         <h1 class="pt-3" >Julius Warih </h1>
-        <p>Software Development | Web Development | Business Analyst</p>
+        <p>Software Development | Web Development | Business Analyst | System Analyst</p>
         <div class="medsos">
-            <p>LinkedIn : <a href='https://www.linkedin.com/in/julius-warih-angkasa-57a876134/'>Click my account LinkedIn</a></p>
-            <p>Instagram :<a href="https://www.instagram.com/julius_warih/"> Click my account Instagram</a></p>
-            <p>Facebook :<a href="https://www.facebook.com/warih17/"> Click my account Facebook</a></p>
-            <h4 ><b>Download Curriculum Vitae :</b><a href="https://drive.google.com/file/d/1LApz_3ms0yKYlNisW9qt2EJDomZbeBVo/view?usp=sharing"> Click my Curriculum Vitae</a></h4>
+            <p>LinkedIn : <a target="_blank" href='https://www.linkedin.com/in/julius-warih-angkasa-57a876134/'>Click my account LinkedIn</a></p>
+            <p>Instagram :<a target="_blank" href="https://www.instagram.com/julius_warih/"> Click my account Instagram</a></p>
+            <p>Facebook :<a target="_blank" href="https://www.facebook.com/warih17/"> Click my account Facebook</a></p>
+            <h4 ><b>Download Curriculum Vitae :</b><a href="https://drive.google.com/file/d/1_tvsUXkLk-ct2X_iQOAOzr2po0dduFC1/view?usp=sharing"> Click my Curriculum Vitae</a></h4>
             <p class="email mt-5">Email : <u>warih70@gmail.com</u>
                 | Phone Number : <u>(+62) 81345153650</u></p>
         </div>
@@ -60,7 +60,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <hr>
                 </div>
 
-                <p class="text-center pt-3 ">Hello, my name is Julius Warih. I am from Semarang, and graduated from the Catholic Soegijapranata University in Semarang. During my lectures on campus, I also joined an organization is HMTI ( Himpunan Mahasiswa Teknik Informatika) and had 6 months of internship experience at PT. VisioNet Data International. I have the ability in terms of communication and provide solutions and ideas in designing an application. </p>
+                <p class="text-center pt-3 ">Introduce myself, my name is Julius Warih. I recently graduated in 2023
+with a master's degree from Dian Nuswantoro University in Semarang. I
+specialize in developing ERP application systems and asset
+management. I have 3 years of experience in this field. Additionally, I
+have expertise in testing applications before they are deployed to users,
+as well as in communication and teamwork to build applications.</p>
             </div>
         </div>
     </div>
@@ -128,6 +133,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="thumbnail" data-aos="fade-up" data-aos-delay="200">
                         <a href="<?php echo base_url(); ?>/assets/foto/mobile.png" data-fancybox="gallery"><img src="<?php echo base_url(); ?>/assets/foto/mobile.png" alt="Image" class="img-fluid"></a>
                         <p id='text'>VisioNet Application using React Native </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="thumbnail" data-aos="fade-up" data-aos-delay="200">
+                        <a href="<?php echo base_url(); ?>/assets/foto/foto_erp.png" data-fancybox="gallery"><img src="<?php echo base_url(); ?>/assets/foto/foto_erp.png" alt="Image" class="img-fluid"></a>
+                        <p id='text'>ERP Colomadoe using PHP</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail" data-aos="fade-up" data-aos-delay="200">
+                        <a href="<?php echo base_url(); ?>/assets/foto/foto_rs_permata.png" data-fancybox="gallery"><img src="<?php echo base_url(); ?>/assets/foto/foto_rs_permata.png" alt="Image" class="img-fluid"></a>
+                        <p id='text'>RS Permata Hati System using PHP</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail" data-aos="fade-up" data-aos-delay="200">
+                        <a href="<?php echo base_url(); ?>/assets/foto/foto_omedikeu.png" data-fancybox="gallery"><img src="<?php echo base_url(); ?>/assets/foto/foto_omedikeu.png" alt="Image" class="img-fluid"></a>
+                        <p id='text'>Omedi Keu System using PHP </p>
                     </div>
                 </div>
             </div>
